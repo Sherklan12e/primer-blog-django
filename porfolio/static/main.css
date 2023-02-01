@@ -1,10 +1,181 @@
 body {
-    background: #1c1c1cbd;
+   
+    font-family: 'Work Sans', sans-serif;
+    background: rebeccapurple;
 }
-.bg-black{
-    background: #0000;
+.mt-5{
+    margin-top: 100px;
+    
 }
-.card-project:hover{
-    border: 1px solid rgb(255, 255, 255);
-    cursor: pointer;
+
+.post{
+    
+    width: 1150px;
+    float: left;
+    margin-right: 20px;
+    height: auto;
+}
+@media (max-width: 720px) {
+    .post {
+      width: 100%;
+      float: none;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+}
+.card{
+  
+    height: 900px;
+    
+}
+.row{
+   
+}
+.ses{
+    
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: auto;
+}
+.ses img{
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: cover){
+    .ses img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+.dev{
+    margin: 30px;
+    margin-top: 50px;
+}
+.des h6{
+    margin: 10px;
+}
+.des h3{
+    margin: 10px;
+    
+}
+.des .seq p{
+    margin: 10px;
+}   
+.seq{
+    width: 480px;
+    margin: auto;
+    margin-top: 30px;
+    word-spacing: 3px;
+    line-height: 34px;
+}
+.botn{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.brl{
+    height: 70px;
+    
+}
+.brl h1 {
+   
+    text-align: center;
+    font-weight: 700;
+    margin: 20px;
+
+}
+
+.fre{
+    margin-top: 100px;
+}
+.titles{
+    height: 60px;
+   
+    text-align: center;
+}
+.titles h1{
+    margin: 20px;
+    font-weight: 700;
+}
+.tres{
+    text-align: end;
+    height: 60px;
+}
+.tres h2{
+    margin: 20px;
+    margin-right: 100px;
+    font-weight: 800;
+}
+.card h5{
+    font-weight: 700;
+    margin: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+.wer{
+    width: 100%;
+    height: 700px;
+    background: #CCC;
+    overflow: hidden;
+    margin: auto;
+}
+.wer img{
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: cover){
+    .wer img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+.lets{
+    line-height: 40px;
+    width: 900px;
+    margin: auto;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+.gut{
+    width: 600px;
+    height: 530px;
+    background: rgba(170, 104, 104, 0);
+    margin: auto;
+}
+.sr{
+    margin:auto;
+    padding-top: 30px;
+    background: rgba(0, 0, 139, 0);
+    width:230px ;
+}
+.sd{
+    margin: auto;
+    width: 400px;
+    background: rgba(139, 69, 19, 0);
+}
+.sp{
+    margin: auto;
+    width: 400px;
+    background: rgba(238, 130, 238, 0);
+}
+.peq{
+    margin: auto;
+    width: 280px;
+    background: rgba(250, 114, 114, 0.003);
+}
+.peq .ss{
+    margin: auto;   
+    width: 300px;
+    background: rgb(0, 0, 0);
+}
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("./img/profile-img.jpg") top right no-repeat;
+    background-size: cover;
+    position: relative;
 }

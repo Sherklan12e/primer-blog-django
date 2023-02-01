@@ -1,0 +1,30 @@
+{% extends 'layaout.html' %}
+
+{% block content %}
+  <div class="brl">
+    <h1>Subir Video</h1>
+  </div>
+  
+  <form class="gut" method="post" >
+    {% csrf_token %}
+    <div class=" sr mb-3">
+      {{ form.title }}
+      
+      <div id="emailHelp" class="form-text">Escribe el Titulo del video</div>
+    </div>
+    <div class=" sd mb-3">
+      {{ form.description }}
+      <div id="emailHelp" class="form-text">Escribe la descripcion del video</div>
+
+      
+    </div>
+    <div class=" sp mb-3 form-check">
+      <div>{{ form.video_file }}
+        {{ form.video_file.label_tag }}</div>
+    </div>
+    <div class="peq"><button  type="submit" class="btn ss btn-primary">Submit</button></div>
+  </form>
+  
+  
+  
+{% endblock %}
